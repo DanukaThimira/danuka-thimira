@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d351ba6a.css",
+    "main.js": "/static/js/main.9d75770b.js",
+    "static/media/netflixImg.png": "/static/media/netflixImg.baa4c458100d6d884a34.png",
+    "static/media/my-img.jpg": "/static/media/my-img.a592c7ff2b3052ec820c.jpg",
+    "static/media/whatsappClone.png": "/static/media/whatsappClone.ff6e1d26285cc2592cf1.png",
+    "static/media/todoAppClone.png": "/static/media/todoAppClone.a65a19c851d0844336b5.png",
+    "static/media/toggleBtn.png": "/static/media/toggleBtn.17c444f027b3426df024.png",
+    "static/media/link.svg": "/static/media/link.b13770a7952c176adf5f51e081abc5ef.svg",
+    "static/media/github.svg": "/static/media/github.de90f8d8230e7f1ed57e7ae36cd87ccb.svg",
+    "static/media/instagram.svg": "/static/media/instagram.2b7e1f09c751131d9e662a0c4bb20316.svg",
+    "index.html": "/index.html",
+    "main.d351ba6a.css.map": "/static/css/main.d351ba6a.css.map",
+    "main.9d75770b.js.map": "/static/js/main.9d75770b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d351ba6a.css",
+    "static/js/main.9d75770b.js"
+  ]
+}
