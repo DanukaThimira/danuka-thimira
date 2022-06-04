@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{ 
+    width: 100%;
+    height: 100vh;
+}
+.bio-area{
+    display: flex;
+    margin-bottom: 30px;
+    height: 350px;
+    background-color: #f6f6f6;
+}
+.profile-img{
+    flex: 0.35;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.bio{
+    flex: 0.65;
+    position: relative;
+    top: 40px;
+}
+
+h1{
+   color: #000;
+    font-size: 70px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.bio .name {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    margin-left: 1px;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #404eed; }
+
+  }
+
+  .img{
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 20%;
+    /* border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1; */
+   border: 5px solid #404eed;
+   border-right: 15px solid #404eed;
+ }
+ 
+  
+
+  .description{
+      margin-top: 15px;
+      font-size: 20px;
+  }
+
+  p{
+      margin: 5px;
+  }
+
+  .name{
+    color: white;
+   -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #404eed;
+  }
+
+
+
+
+/* Container for skill bars */
+.container {
+  width: 70%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+#skill-txt{
+    margin-left: 50px;
+    font-size: 18px;
+    
+    font-family: sans-serif;
+    font-weight: 520;
+}
+
+
+.skills {
+  text-align: left; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: #000; /* White text color */
+  width: 70vw;
+}
+
+.html {width: 40%; background-color: #404eed;} /* Green */
+.css {width: 40%; background-color: #404eed;} /* Blue */
+.js {width: 30%; background-color: #404eed;} /* Red */
+.reactJs {width: 40%; background-color: #404eed;} /* Dark Grey */
+
+.skills:nth-last-child(1){
+    margin-bottom: 50px;
+}
+
+.project-section{
+  background-color: #f6f6f6;
+  padding-top: 20px;
+}
+
+.portfolio-txt{
+  text-align: center;
+  color: white;
+   -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #404eed; 
+}
+
+.portfolio-txt:hover {
+  color: white;
+   -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #404eed; 
+}
+
+.first-row{
+  display: flex;
+}
+
+.whatsapp-clone{
+  width: 350px;
+  height: 350px;
+  background-color: #DADBD3;
+  text-align: center;
+  margin-left: 90px;
+  margin-top: 35px;
+  border:10px double #404eed ;
+}    
+.whatsapp-clone-img{
+  width: 300px;
+  margin-top: 15px;
+}
+
+.links{
+  margin-right: 40px;
+}
+
+.links > h4{
+  margin-left: 50px;
+  margin-bottom: 8px;
+  font-family: sans-serif;
+}
+
+.links > a{
+  margin-left: 50px;
+}
+
+.links > a > img{
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.links > a > img:hover{
+  opacity: 0.50;
+}
+
+.todo-app{
+  width: 350px;
+  height: 350px;
+  background-color: #DADBD3;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 35px;
+  border:10px double #404eed ;
+}    
+.todo-app-img{
+  width: 300px;
+  margin-top: 15px;
+}
+
+.second-row{
+  display: flex;
+}
+
+.spin-loading{
+  width: 350px;
+  height: 350px;
+  background-color: #DADBD3;
+  text-align: center;
+  margin-left: 90px;
+  margin-top: 35px;
+  border:10px double #404eed ;
+}
+
+.spin-loading-img{
+  width: 280px;
+  height: 220px;
+  margin-top: 15px;
+}
+
+.netflix-clone{
+  width: 350px;
+  height: 350px;
+  background-color: #DADBD3;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 35px;
+  border:10px double #404eed ;
+}    
+.netflix-clone-img{
+  width: 300px;
+  margin-top: 15px;
+}
+
+.app{
+  width: 350px;
+  height: 350px;
+  background-color: #DADBD3;
+  text-align: center;
+  margin-left: 90px;
+  margin-top: 35px;
+  border:10px double #404eed ;
+}    
+.app-img{
+  width: 300px;
+  margin-top: 15px;
+}
+
+.third-row{
+  display: flex;
+}
+
+.app-second{
+  width: 350px;
+  height: 350px;
+  background-color: #DADBD3;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 35px;
+  border:10px double #404eed ;
+}    
+.app-second-img{
+  width: 300px;
+  margin-top: 15px;
+}
+
+.footer{
+  height: 200px;
+  background-color: #404eed;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.social-links{
+  position: relative;
+  top: 50px;
+}
+
+
+.social-links > a > img{
+  border: 5px solid #fff;
+  margin-left: 40px;
+}
+
+.social-links > p {
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 15px;
+  font-family: sans-serif;
+} 
+
+.social-links > a > img{
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px){
+  .bio-area{
+    display: block;
+    margin-bottom: 30px;
+    height: 650px;
+    background-color: #f6f6f6;
+    margin-left: 20px;
+}
+.profile-img{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.bio{
+    position: relative;
+    top: 40px;
+}
+.first-row{
+  display: block;
+}
+.second-row{
+  display: block;
+}
+.third-row{
+  display: block;
+}
+ h1 {
+  font-size: 50px;
+}
+.todo-app{
+  margin-left: 90px;
+}
+.netflix-clone{
+  margin-left: 90px;
+}
+.app-second{
+  margin-left: 90px;
+}
+}
